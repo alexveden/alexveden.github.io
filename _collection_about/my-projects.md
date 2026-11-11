@@ -10,7 +10,7 @@ layout: page
 
 <a id="uber-hf-2"></a>
 ### UberHF 2.0 (low-latency trading)
-Trading framework in pure C (not C++) for low-latency market-making and arbitrage.
+Trading framework in pure C (not C++) for low-latency market-making and arbitrage. UberHF 1.0 started in 2022; the pure C rewrite, 2.0, started in 2023.
 
 **Highlights:**
 - Micro-app architecture
@@ -51,12 +51,12 @@ The analysis engine behind my own trading: signal generation and modelling. In d
 
 
 ## Projects for clients
-### ArbSwarm proprietary trading group (2023 &ndash; 2026)
-Adapted [MicroStrategy](#micro-strategy) for execution and position management and [UberMiner](#uber-miner) for analysis and datafeed. Built the Hive&copy; tool for generating alpha swarms and signals on US futures, FIX execution through Trading Technologies, and the Linux server infrastructure.
+### Swarm Investments LLC (2023 &ndash; 2026)
+Sole quant developer and architect on contract. Adapted [MicroStrategy](#micro-strategy) for execution and position management and [UberMiner](#uber-miner) for analysis and datafeed. Built the Hive&copy; tool for generating alpha swarms and signals on US futures, FIX execution through Trading Technologies, and the Linux server infrastructure.
 
 <a id="tmqr-exo"></a>
-### TMQR EXO Trading Framework
-Framework for research, backtesting and running a multi-account fund on futures, options and US stocks.
+### TMQR EXO Trading Framework (2018 &ndash; 2022)
+Lead quant developer and architect. Framework for research, backtesting and running a multi-account fund on futures, options and US stocks. The framework ran $40M+ of capital across multiple accounts.
 
 **Highlights**:
 - Backtesting engine for machine-learning models on futures, stocks and options
@@ -143,11 +143,11 @@ Standalone algorithms for financial time series analysis.
 - Sample infrastructure
 - In production 24/7 since 2019
 
-<a id="cython-tools"></a>
+<a id="cython-dev-tools"></a>
 
-### Cython Tools: toolkit for efficient Cython development
+### Cython Dev Tools: toolkit for efficient Cython development
 
-[Cython Tools: toolkit for efficient Cython development](https://github.com/alexveden/cython-tools)
+[Cython Dev Tools: toolkit for efficient Cython development](https://github.com/alexveden/cython-dev-tools)
 
 **Key features**
 

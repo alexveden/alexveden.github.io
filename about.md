@@ -15,9 +15,9 @@ architect covers all of it, so there is no integration seam between teams.
 
 I made my first trade in 2004 and have built production trading systems since 2007. I
 started as a prop desk trader, became a quant developer, and now design the frameworks
-funds run on. I designed the core framework behind a multi-account algorithmic fund that
-co-managed over $40M, built execution infrastructure for a proprietary trading group, and
-run my own book on the same components.
+funds run on. I designed the core framework that ran $40M+ of capital across multiple
+accounts, built execution infrastructure for a proprietary trading group, and run my own
+book on the same components.
 
 ## Timeline
 
@@ -25,22 +25,22 @@ run my own book on the same components.
     <li>
         <span class="when">2023 &ndash; 2026</span>
         <div>
-            <h3>Proprietary trading group</h3>
-            <p>Core trading framework, alpha research tooling and FIX execution on US futures.</p>
+            <h3>Swarm Investments LLC</h3>
+            <p>Sole quant developer and architect. Core trading framework, Hive&copy; alpha research tooling and FIX execution on US futures via Trading Technologies.</p>
         </div>
     </li>
     <li>
         <span class="when">2022 &ndash; now</span>
         <div>
             <h3>Low-latency execution</h3>
-            <p>My own pure-C framework for low-latency market-making and arbitrage.</p>
+            <p>My own framework for low-latency market-making and arbitrage: UberHF 1.0 in 2022, rewritten in pure C as UberHF 2.0 in 2023.</p>
         </div>
     </li>
     <li>
         <span class="when">2018 &ndash; 2022</span>
         <div>
-            <h3>Fund infrastructure</h3>
-            <p>Core trading framework behind a multi-account algorithmic fund that co-managed over $40M.</p>
+            <h3>TMQR: fund infrastructure</h3>
+            <p>Lead quant developer and architect. Core trading framework that ran $40M+ of capital across multiple accounts.</p>
         </div>
     </li>
     <li>
@@ -51,17 +51,17 @@ run my own book on the same components.
         </div>
     </li>
     <li>
-        <span class="when">2010 &ndash; now</span>
+        <span class="when">2010 &ndash; 2016</span>
         <div>
-            <h3>Own capital</h3>
-            <p>Trading my own and family money on the same stack I build desks from.</p>
+            <h3>Independent systematic trader and quant developer</h3>
+            <p>Systematic trading on futures and options with my own and family capital. I still run my own book on the same stack I build desks from.</p>
         </div>
     </li>
     <li>
-        <span class="when">2007 &ndash; 2010</span>
+        <span class="when">2006 &ndash; 2009</span>
         <div>
-            <h3>Proprietary trading firm</h3>
-            <p>Junior trader to head of the algorithmic trading and arbitrage desk.</p>
+            <h3>Proprietary trading firms</h3>
+            <p>Three firms. Started as a junior trader and headed the algorithmic trading and arbitrage desk at the last one.</p>
         </div>
     </li>
     <li>
@@ -72,6 +72,11 @@ run my own book on the same components.
         </div>
     </li>
 </ol>
+
+## Education
+
+- **Saratov State Socio-Economic University**, 2003 &ndash; 2009: master's degree in economics, finance and banking.
+- **NAUFOR (Russia)**: Certified Financial Market Specialist, brokerage (1.0) and asset management (5.0).
 
 ## Capabilities
 

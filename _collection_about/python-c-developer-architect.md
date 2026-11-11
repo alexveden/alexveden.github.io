@@ -27,7 +27,7 @@ algorithm.
 - **Order management and execution.** Algorithmic orders for multi-leg positions (pairs, baskets, options), delta hedging, legging into option positions. FIX, broker APIs, REST.
 - **Market data storage.** Data structures for fast backtesting and live trading, usually on MongoDB.
 - **Distributed services.** Microservices over RabbitMQ or ZeroMQ, with asyncio Python. See [yauber-executor]({{ '/about/my-projects/#yauber-executor' | relative_url }}), in production since 2019.
-- **Fast Python.** Numba and Cython for numeric code. See [yauber-algo]({{ '/about/my-projects/#yauber-algo' | relative_url }}) (Numba) and [cython-tools]({{ '/about/my-projects/#cython-tools' | relative_url }}).
+- **Fast Python.** Numba and Cython for numeric code. See [yauber-algo]({{ '/about/my-projects/#yauber-algo' | relative_url }}) (Numba) and [cython-dev-tools]({{ '/about/my-projects/#cython-dev-tools' | relative_url }}).
 - **Low-latency C.** Plain C (not C++) for low-latency strategies and order management: full control over execution flow and the lowest latency. See [UberHF 2.0]({{ '/about/my-projects/#uber-hf-2' | relative_url }}).
 - **Linux servers.** Set up and run Debian/Ubuntu machines on any hosting or cloud provider.
 
