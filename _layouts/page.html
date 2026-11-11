@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<article class="wrap prose{% if page.wide %} prose-wide{% endif %}">
+    <header class="page-head">
+        <p class="eyebrow">{{ page.kicker | default: 'About' }}</p>
+        <h1>{{ page.title | escape }}</h1>
+        {% if page.summary %}
+            <p class="page-summary">{{ page.summary }}</p>
+        {% endif %}
+    </header>
+
+    {{ content }}
+
+    {% if page.collection == 'collection_about' %}
+        <p class="page-back"><a href="{{ '/about/' | relative_url }}">&larr; Back to about</a></p>
+    {% else %}
+        <p class="page-back"><a href="{{ '/' | relative_url }}">&larr; Back to home</a></p>
+    {% endif %}
+</article>

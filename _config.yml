@@ -1,0 +1,38 @@
+title:            Alex Veden — QuantOps Architect
+longtitle:        Alex Veden
+author:           Alex Veden
+email:            i@alexveden.com
+description: >
+  QuantOps Architect. I build the systems quant desks run on: research workflow,
+  backtesting, execution, risk and reporting.
+
+url:              'https://alexveden.com'
+baseurl:          ''
+
+favicon_path:     /assets/img/favicon.ico
+
+kramdown:
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+collections:
+  collection_about:
+    output: true
+    permalink: /about/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: collection_about
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Makefile
+  - tmux_run.sh
+  - LICENSE
+  - .github
+
+github_username:    alexveden
+linkedin_username:  alex-veden

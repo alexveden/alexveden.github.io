@@ -1,0 +1,298 @@
+---
+layout: home
+permalink: /
+description: >
+  QuantOps Architect. I build the systems quant desks run on: research workflow,
+  backtesting, execution, risk and reporting.
+---
+<section class="hero">
+    <div class="wrap hero-inner">
+        <div>
+            <p class="eyebrow">QuantOps Architect</p>
+            <h1>I build the systems quant desks run on, from research to execution.</h1>
+            <p class="lede">
+                For prop firms, family offices and quant teams: research first, then
+                execution, risk and reporting as the desk grows. Two decades of
+                production trading systems, including the core framework behind a fund
+                that co-managed over $40M.
+            </p>
+            <div class="hero-actions">
+                <a class="btn" href="mailto:{{ site.email }}">Tell me what you're building</a>
+                <a class="btn btn-ghost" href="{{ '/how-i-work/' | relative_url }}">How I work</a>
+            </div>
+        </div>
+        <img class="hero-avatar" src="{{ '/assets/img/avatar.jpg' | relative_url }}" alt="Alex Veden" width="176" height="176">
+    </div>
+</section>
+
+<div class="wrap">
+    <div class="metrics">
+        <div class="metric">
+            <p class="metric-value">20</p>
+            <p class="metric-label">Years in the markets</p>
+        </div>
+        <div class="metric">
+            <p class="metric-value">7</p>
+            <p class="metric-label">Production frameworks</p>
+        </div>
+        <div class="metric">
+            <p class="metric-value">$40M</p>
+            <p class="metric-label">Fund behind the core framework</p>
+        </div>
+        <div class="metric">
+            <p class="metric-value">1</p>
+            <p class="metric-label">Architect, start to finish</p>
+        </div>
+    </div>
+</div>
+
+<section class="section">
+    <div class="wrap">
+        <p class="eyebrow">Problems I solve</p>
+        <h2>Where quant teams get stuck</h2>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Capital, but no desk</h3>
+                <p>The money and the strategy are ready. Nobody on the team has built a trading desk.</p>
+            </article>
+            <article class="card">
+                <h3>Backtests don't match live</h3>
+                <p>Strategies that look good in research behave differently once real money is on.</p>
+            </article>
+            <article class="card">
+                <h3>Research lives on one laptop</h3>
+                <p>Notebooks and scripts that only one person can run, and nobody else can check.</p>
+            </article>
+            <article class="card">
+                <h3>Pieces that don't fit</h3>
+                <p>Data vendor, backtester and broker API bought separately, held together by hand.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="wrap">
+        <p class="eyebrow">What gets built</p>
+        <h2>Three phases, each ending in something running</h2>
+        <p class="section-lede">
+            The first build is the smallest desk that can trade for real, with up
+            to three months from agreement to first live trade. It grows from
+            there, without being rebuilt.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <p class="eyebrow">Phase 01</p>
+                <h3>Research</h3>
+                <p>
+                    Data ingestion, storage and a backtesting environment. You can
+                    test a strategy yourself, on your own data, before any money moves.
+                    Available on its own, including an audit and overhaul for teams that
+                    already trade.
+                </p>
+            </article>
+
+            <article class="card">
+                <p class="eyebrow">Phase 02</p>
+                <h3>Execution</h3>
+                <p>
+                    Order management and broker connectivity. An order reaches the
+                    market, comes back filled, and the position is where it should be.
+                </p>
+            </article>
+
+            <article class="card">
+                <p class="eyebrow">Phase 03</p>
+                <h3>Risk and reporting</h3>
+                <p>
+                    Position, P&amp;L, limits and a daily report. The desk trades
+                    inside its limits and leaves a record of what it did.
+                </p>
+            </article>
+        </div>
+
+        <p class="section-more">
+            <a href="{{ '/what-you-get/' | relative_url }}">What a build covers, in detail &rarr;</a>
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="wrap">
+        <p class="eyebrow">How I work</p>
+        <h2>One architect, no handoffs</h2>
+
+        <ul class="facts">
+            <li>
+                <span class="fact-label">Ownership</span>
+                <p>
+                    One person designs and builds the pipeline. There is no integration
+                    seam between teams, because there are no teams.
+                </p>
+            </li>
+            <li>
+                <span class="fact-label">Cadence</span>
+                <p>A working demo every two weeks, not a status report.</p>
+            </li>
+            <li>
+                <span class="fact-label">Your repository</span>
+                <p>Source, tests and documentation go into your repository.</p>
+            </li>
+            <li>
+                <span class="fact-label">Your server</span>
+                <p>
+                    A shared machine for the team on your infrastructure: JupyterLab,
+                    VPN access, one environment for everyone.
+                </p>
+            </li>
+            <li>
+                <span class="fact-label">Handover</span>
+                <p>
+                    Runbooks, deployment notes and a walkthrough, so the desk does not
+                    depend on me being reachable.
+                </p>
+            </li>
+        </ul>
+
+        <p class="section-more">
+            <a href="{{ '/how-i-work/' | relative_url }}">How I work, in detail &rarr;</a>
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="wrap">
+        <p class="eyebrow">Proof</p>
+        <h2>What I've built</h2>
+        <p class="section-lede">
+            Three systems built on my code. All mid-frequency, all on real money.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <p class="eyebrow">2018 &ndash; 2022</p>
+                <h3>Multi-account algorithmic fund</h3>
+                <p>
+                    <strong>Problem:</strong> A fund trading futures, options and US
+                    stocks across several accounts had no single system from research to
+                    execution.
+                </p>
+                <p>
+                    <strong>Build:</strong> A backtesting engine for ML models, the
+                    datafeed, multi-account execution via Trading Technologies FIX and
+                    Interactive Brokers, a Jupyter research environment over VPN, and the
+                    Linux servers.
+                </p>
+                <p>
+                    <strong>Outcome:</strong> The fund co-managed over $40M on this
+                    framework.
+                </p>
+            </article>
+
+            <article class="card">
+                <p class="eyebrow">2023 &ndash; 2026</p>
+                <h3>Futures prop trading group</h3>
+                <p>
+                    <strong>Problem:</strong> A prop group needed signal research and
+                    execution on US futures.
+                </p>
+                <p>
+                    <strong>Build:</strong> My execution framework adapted for them, a
+                    tool that generates swarms of alpha signals, FIX execution to Trading
+                    Technologies, and their Linux server operations.
+                </p>
+                <p>
+                    <strong>Outcome:</strong> Live trading on US futures through TT FIX.
+                </p>
+            </article>
+
+            <article class="card">
+                <p class="eyebrow">2021 &ndash; now</p>
+                <h3>My own book</h3>
+                <p>
+                    <strong>Problem:</strong> My own capital needed the same research and
+                    execution standard I build for clients.
+                </p>
+                <p>
+                    <strong>Build:</strong> An execution framework (multi-leg positions,
+                    internal netting, smart orders) and a research engine (universal
+                    datafeed, alpha library, Monte Carlo portfolio risk).
+                </p>
+                <p>
+                    <strong>Outcome:</strong> It runs my own and family money, and every
+                    client build starts from it.
+                </p>
+            </article>
+        </div>
+
+        <div class="divider"><span>Open source</span></div>
+
+        <ul class="project-list">
+            <li><a href="https://github.com/alexveden/asyncfix">AsyncFIX <span class="tag">FIX in Python</span></a></li>
+            <li><a href="https://github.com/alexveden/yauber-backtester">YAUBER Backtester <span class="tag">Backtesting</span></a></li>
+            <li><a href="https://github.com/alexveden/yauber-algo">YAUBER Algo <span class="tag">Time series</span></a></li>
+            <li><a href="https://github.com/alexveden/uberhf_cython">UberHF <span class="tag">HFT execution engine</span></a></li>
+            <li><a href="https://github.com/alexveden/cex">Cex.C <span class="tag">Programming language</span></a></li>
+        </ul>
+
+        <p class="section-more">
+            <a href="{{ '/about/my-projects/' | relative_url }}">Full project list, including client work &rarr;</a>
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="wrap">
+        <p class="eyebrow">Scope</p>
+        <h2>What I don't do</h2>
+
+        <ul class="facts">
+            <li>
+                <span class="fact-label">Staff augmentation</span>
+                <p>No day-rate contracting and no borrowed developers.</p>
+            </li>
+            <li>
+                <span class="fact-label">Advisory only</span>
+                <p>No architecture documents that stop at the document.</p>
+            </li>
+            <li>
+                <span class="fact-label">Alpha and strategy research</span>
+                <p>You own the thesis. I build the process that tests it and the machine that runs it.</p>
+            </li>
+            <li>
+                <span class="fact-label">Performance claims</span>
+                <p>No published returns and no track records. That is not what is being sold.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section">
+    <div class="wrap">
+        <p class="eyebrow">Risk</p>
+        <h2>What happens if I disappear</h2>
+        <p class="section-lede">
+            The desk keeps trading without me. Source, tests and documentation go into
+            your repository, and every account is in your name. Runbooks cover every
+            operational task, so your team can run the desk.
+        </p>
+        <p class="section-more">
+            <a href="{{ '/how-i-work/#bus-factor' | relative_url }}">The full answer &rarr;</a>
+        </p>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h2>Tell me what you're building</h2>
+        <p class="section-lede">
+            Tell me which markets and frequency, who is on the team, and what exists
+            today. If it's not a fit, I'll say so.
+        </p>
+
+        {% include contact-links.html %}
+    </div>
+</section>
