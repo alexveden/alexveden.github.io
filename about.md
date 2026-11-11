@@ -17,7 +17,8 @@ I made my first trade in 2004 and have built production trading systems since 20
 started as a prop desk trader, became a quant developer, and now design the frameworks
 funds run on. I designed the core framework that ran $40M+ of capital across multiple
 accounts, built execution infrastructure for a proprietary trading group, and run my own
-book on the same components.
+book on the same components. Designed and written by hand. AI-assisted development only
+since early 2026.
 
 ## Timeline
 
